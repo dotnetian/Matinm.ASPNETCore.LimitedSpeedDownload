@@ -60,7 +60,7 @@ public class LimitedSpeedDownloadResult : IActionResult
 		// Increment the session count for the client
 		_sessionCounts.AddOrUpdate (clientIp, 1, (key, value) => value + 1);
 
-		string fileName = "SkyBlock.mp4";
+		string fileName = _filePath.Split ('/').Last ();
 		context.HttpContext.Response.Headers.Add ("Content-Disposition", $"attachment; filename={fileName}");
 		context.HttpContext.Response.Headers.Add ("Accept-Ranges", "bytes");
 
