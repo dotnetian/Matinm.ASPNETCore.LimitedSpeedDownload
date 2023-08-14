@@ -10,7 +10,20 @@
     <Company />
     <Description>Simple Limited Download with pause/resume capability for ASP.NET Core</Description>
     <Copyright>This package is under MIT license</Copyright>
+    <RepositoryUrl>https://github.com/matinwastaken/Matinm.ASPNETCore.LimitedSpeedDownload</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/matinwastaken/Matinm.ASPNETCore.LimitedSpeedDownload</PackageProjectUrl>
+    <PackageTags>asp.net-core</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <AnalysisLevel>latest</AnalysisLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Matin\Downloads\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
