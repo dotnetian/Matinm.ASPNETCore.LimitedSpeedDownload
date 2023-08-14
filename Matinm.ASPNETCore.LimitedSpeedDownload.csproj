@@ -17,7 +17,7 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <AnalysisLevel>latest</AnalysisLevel>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageId>Matinm.AspNetCore.LimitedSpeedDownload</PackageId>
+		<PackageId>Matinm.Web.LimitedSpeedDownload</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
