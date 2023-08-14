@@ -18,6 +18,9 @@
     <AnalysisLevel>latest</AnalysisLevel>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageId>Matinm.Web.LimitedSpeedDownload</PackageId>
+		<Version>1.0.1</Version>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
+		<FileVersion>1.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
